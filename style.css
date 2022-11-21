@@ -1,0 +1,27 @@
+body{
+    background-color: green;
+    color: blue;
+}
+
+.container{
+    max-width: min(80ch, 100vw - 4rem);
+    margin-inline: auto;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+nav > ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
